@@ -16,5 +16,17 @@ git checkout *
 git push/git remote show/git pull
 #推送远程/查看远程分支 page 48
 
+git add*/git commit -m "*"
+#暂存stage/提交commit
 
+git reset
+#恢复 page 242
 
+git log
+#查看提交
+
+git merge
+#融合分支
+
+git commit --amend
+#修改最后一次提交
