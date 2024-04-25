@@ -1,0 +1,4 @@
+# no .o files 
+*.mod
+*.o
+exe

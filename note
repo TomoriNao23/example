@@ -1,0 +1,20 @@
+.gitignore
+#忽略跟踪文件 page 29
+
+git grep -p *
+#查找函数 page 233
+
+git rm *
+#删除 page 35
+
+git branch/git branch *
+#查看所有分支/新建分支 page 58
+
+git checkout *
+#切换分支
+
+git push/git remote show/git pull
+#推送远程/查看远程分支 page 48
+
+
+
