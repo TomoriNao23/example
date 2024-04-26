@@ -1,0 +1,2 @@
+#记录过去操作
+./configure --with-curl=/home/yyq/mls/miniconda3 --with-perl=/home/yyq/mls/miniconda3/bin/perl prefix=/home/yyq/mls/packets/git_2.9
