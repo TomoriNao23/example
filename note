@@ -30,3 +30,6 @@ git merge
 
 git commit --amend
 #修改最后一次提交
+
+git remote -v
+#查看远程仓库
