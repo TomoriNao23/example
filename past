@@ -1,2 +1,12 @@
+###############################
 #记录过去操作
+###############################
+
+#安装git
 ./configure --with-curl=/home/yyq/mls/miniconda3 --with-perl=/home/yyq/mls/miniconda3/bin/perl prefix=/home/yyq/mls/packets/git_2.9
+
+#添加远程仓库 (ssh)
+git remote add example git@github.com:TomoriNao23/example.git #git remote add <远程仓库名> <远程仓库地址>
+
+#推送远程
+git push example master #git push <远程仓库名> <本地分支>
