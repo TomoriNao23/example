@@ -10,3 +10,11 @@ git remote add example git@github.com:TomoriNao23/example.git #git remote add <�
 
 #推送远程
 git push example master #git push <远程仓库名> <本地分支>
+
+#netcdf_c安装
+CC=mpiicx FC=mpiifort CPP=mpiicx CXX=icx ./configure --prefix=/opt/netcdf_c LDFLAGS="-L/opt/hdf5/lib -L/opt/libxml/lib" CPPFLAGS="-I/opt/hdf5/include -I/opt/libxml/include/libxml2/libxml" --enable-largefile --enable-netcdf-4 --enable-parallel4--enable-shared
+
+#netcdf_f安装(netcdf可以装在netcdf_cx同一个文件夹)
+export CPPFLAGS=-I/opt/netcdf_c/include
+export LDFLAGS=-L/opt/netcdf_c/lib.
+CC=mpiicx FC=mpiifort CPP=mpiicx CXX=mpiicx ./configure --enable-parallel-tests --prefix=/opt/netcdf_f
